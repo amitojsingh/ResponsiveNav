@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css" />
 	<title>Menu
 	</title>
 	</head>
@@ -10,7 +11,7 @@
 	<header>
 		<p class="logo">iIi</p>
 	</header>
-	<nav class="main-nav">
+	<nav id="nav" class="main-nav">
 		<ul class="menu-list">
 			   <li><a href="#" class="menu-item home-menu">Home</a></li>
 	  		   <li><a href="#" class="menu-item about-menu">About</a></li>
@@ -19,5 +20,10 @@
 			   <li><a href="#" class="menu-item contact-menu">Contact</a></li>
 		</ul>
 	</nav>
+
+	<div>
+		<a id="nav_open_btn" href="#nav"></a>
+		<a id="nav_close_btn" href=""></a>
+	</div>
 </body>
 </html>

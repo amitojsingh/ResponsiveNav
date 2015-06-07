@@ -14,7 +14,7 @@ body {
 
 body {
   font-family: "Lato", sans-serif;
-  color: #333; }
+  color: #333333; }
 
 .logo {
   font-family: "Playfair Display", serif;
@@ -39,10 +39,11 @@ body {
 
 .menu-item {
   text-decoration: none;
-  color: #333;
+  color: #333333;
   font-size: 18px; }
-  .menu-item:hover, .menu-item:active {
+  .menu-item:hover {
     color: #5e9e79;
     border-bottom: 2px solid #5e9e79; }
 
-/*# sourceMappingURL=style.css.map */
+header > div {
+  display: none; }
