@@ -45,5 +45,7 @@ body{
 	&:hover{
 		color: $green;
 		border-bottom:2px solid $green;
+		opacity:10;
+		transition: 1s;
 	}
 }
