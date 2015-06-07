@@ -44,8 +44,7 @@ body{
 	&:hover{
 		color: $green;
 		border-bottom:2px solid $green;
-		@include hover-animation();
-
+		@include hover-animation();	
 	
 	}
 }
