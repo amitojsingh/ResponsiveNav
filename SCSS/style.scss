@@ -1,15 +1,44 @@
+@import 'reset';
+@import 'options';
+
+body{
+	font-family:$font;
+	color:$black;
+}
+
+.logo{
+	font-family:$logo-font;
+	font-size:50px;
+	position:absolute;
+	margin-left:25px;
+	margin-top:15px;
+}
+
+.main-nav{
+	width:400px;
+	margin-left:auto;
+	padding-right:25px;
+	padding-top: 20px;
+}
+
 .menu-list{
-		display: inline-block;
-		height: 30px;
-		margin-top:10px;
-		margin-left: 10px;
+	display: inline-block;
+	margin-top:20px;
 
-
-li{
-		 float: left;
-		 list-style: none;
-		 margin-left: 50px; 
- }
+	> li{
+		margin-left:20px;
+		float: left;
+		list-style: none;
+	 }
+		
  }
 
-
+.menu-item {
+	text-decoration:none;
+	color: $black;
+	font-size:18px;
+	&:hover{
+		color: $green;
+		border-bottom:2px solid $green;
+	}
+}
