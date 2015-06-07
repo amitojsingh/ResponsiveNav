@@ -1,61 +1,61 @@
-		header {
-			height : auto;			
-		}
+@import 'options';
 
-		.logo {
-			left : 45%;
-		}
+header {
+	height : auto;			
+}
 
-		.main-nav {
-			margin-left : 0;
-		}
+.logo {
+	left: 40%;
+}
 
-		nav.main-nav {
-			position : relative;
-			top : 40px;
-			left : 0;
-			ul {
-				display : block;
-				li {
-					float : none;
-					a {
-						color : #333333;
-						text-decoration: none;
-					}
-				}
+
+nav.main-nav {
+	position : relative;
+	top : 40px;
+	left : 0;
+	ul {
+		display : block;
+		li {
+			float : none;
+			a {
+				color : #333333;
+				text-decoration: none;
 			}
 		}
+	}
+}
 
-		nav.main-nav + div {
-			display : block;
-			width: 40px;
-			height: 35px;
-			padding : 5px; 
-			> a {
-				position: absolute;
-				top: 30px;
-				width : 30px;
-				height: 35px;
-			}
-		}
+nav.main-nav + div {
+	display : block;
+	width: 40px;
+	height: 35px;
+	padding : 5px; 
+	> a {
+		position: absolute;
+		top: 30px;
+		width : 30px;
+		height: 35px;
+		line-height:30px;
+	}
+}
 
-		#nav_open_btn {
-			z-index : 1;
-			background: #000000 url("images/nav-icon.svg") left center no-repeat;
-		}
-		
-		#nav_close_btn {
-			z-index: -1;
-			background: #000000 url("images/close-btn.svg") left center no-repeat;
-		}
+#nav_open_btn {
+	z-index : 1;
+	background: #fff url($menu-open-icon) left center no-repeat;
+}
 
-		#nav:target + div > #nav_close_btn{
-			display: block;
-			z-index : 1;
-		}
-		#nav:target + div > #nav_open_btn{
-			z-index : -1;
-		}
-		#nav:not(:target) {
-			display : none;
-		}
+#nav_close_btn {
+	z-index: -1;
+	background: #fff url($menu-close-icon) left center no-repeat;
+}
+
+#nav:target + div > #nav_close_btn{
+	display: block;
+	z-index : 1;
+}
+#nav:target + div > #nav_open_btn{
+	z-index : -1;
+}
+#nav:not(:target) {
+	display : none;
+}
