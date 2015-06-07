@@ -13,6 +13,6 @@ $green: #5e9e79;
 
 @mixin hover-animation(){
 	opacity:1;
-	transition:1s;
+	 -webkit-transition: 1s ease; -moz-transition: 1s ease; -o-transition: 1s ease; transition:1s ease;
 
 }
