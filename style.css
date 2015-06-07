@@ -14,17 +14,16 @@ body {
 
 body {
   font-family: "Lato", sans-serif;
-  color: #333333; }
+  color: #333; }
 
 .top-bar {
   max-width: 1000px;
-  margin-left: auto; }
+  margin: auto; }
 
 .logo {
   font-family: "Playfair Display", serif;
   font-size: 50px;
   position: absolute;
-  left: 50px;
   margin-top: 15px; }
 
 .main-nav {
@@ -43,7 +42,7 @@ body {
 
 .menu-item {
   text-decoration: none;
-  color: #333333;
+  color: #333;
   font-size: 18px; }
   .menu-item:hover {
     color: #5e9e79;
@@ -98,11 +97,11 @@ body {
 
   #nav_open_btn {
     z-index: 1;
-    background: white url("images/nav-open.svg") left center no-repeat; }
+    background: #fff url("images/nav-open.svg") left center no-repeat; }
 
   #nav_close_btn {
     z-index: -1;
-    background: white url("images/nav-close.svg") left center no-repeat; }
+    background: #fff url("images/nav-close.svg") left center no-repeat; }
 
   #nav:target + div > #nav_close_btn {
     display: block;
@@ -113,3 +112,5 @@ body {
 
   #nav:not(:target) {
     display: none; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -8,14 +8,13 @@ body{
 
 .top-bar{
 	max-width:1000px;
-	margin-left: auto;
+	margin:auto;
 }
 
 .logo{
 	font-family:$logo-font;
 	font-size:50px;
 	position:absolute;
-	left : 50px;
 	margin-top:15px;
 }
 
