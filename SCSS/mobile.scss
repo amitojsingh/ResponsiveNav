@@ -5,22 +5,27 @@ header {
 }
 
 .logo {
-	left: 40%;
+	left: 45%;
 }
-
 
 nav.main-nav {
 	position : relative;
+	margin-left : 0;
 	top : 40px;
-	left : 0;
+	left : -10px;
+
 	ul {
 		display : block;
+		width : 45%;
+		background-color : #fafafa;
 		li {
 			float : none;
+			padding: 8px 0;
+			border-bottom : 1px solid #afafaf;
+			border-top : 1px solid #afafaf;
 			a {
 				color : #333333;
 				text-decoration: none;
-				 
 			}
 		}
 	}
