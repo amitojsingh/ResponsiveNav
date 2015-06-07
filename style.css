@@ -14,7 +14,7 @@ body {
 
 body {
   font-family: "Lato", sans-serif;
-  color: #333; }
+  color: #333333; }
 
 .top-bar {
   max-width: 1000px;
@@ -43,7 +43,7 @@ body {
 
 .menu-item {
   text-decoration: none;
-  color: #333;
+  color: #333333;
   font-size: 18px; }
   .menu-item:hover {
     color: #5e9e79;
@@ -52,4 +52,5 @@ body {
     transition: 1s;
 }
 
-/*# sourceMappingURL=style.css.map */
+header > div {
+  display: none; }
